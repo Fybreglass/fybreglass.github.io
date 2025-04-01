@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quinn Fletcher</title>
+        <style>
+        body {
+           background-color: rgb(51, 51, 49);
+           display: flex;
+           flex-direction: column; 
+           margin: 0;
+           font-family: Arial, sans-serif; 
+        }
+        .title-container {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           background-color: #f4f4f4;
+           padding: 10px 15px; 
+           box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+        }
+        .title {
+           color: #000000; /* Changed to solid black */
+           text-align: justify; 
+           font-size: 24px; 
+        }
+        .title h1 {
+           font-family: 'Russo One', sans-serif; 
+           margin: 0; /* Remove default margin */
+        }
+        .navbar-container {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           background-color: #f4f4f4;
+           padding: 10px 15px; 
+           box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+        }
+        .navbar {
+           display: flex;
+           justify-content: center; 
+           align-items: center; 
+        }
+        .navbar ul {
+           list-style-type: none; 
+           padding: 0; 
+           display: flex; 
+           margin: 0;
+           justify-content: center; 
+        }
+        .navbar li {
+           margin-right: 20px; 
+        }
+        .navbar a {
+           color: #000000; 
+           text-decoration: none; 
+        }
+        .navbar a:hover {
+           text-decoration: underline; 
+        }
+        .content-container {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           padding: 20px;
+           box-sizing: border-box; 
+        }
+        
+        .design-links {
+           display: flex;
+           gap: 20px; 
+           justify-content: center; 
+           margin-top: 20px; 
+        }
+        .wider-thinking-link img, .personal-project-link img, .visual-development-link img {
+         max-width: 400px;
+        width: 400px; /* Allow the image to scale proportionally */
+        height: auto; /* Maintain the aspect ratio */
+         border: 1px solid rgb(0, 0, 0); /* Optional: Add a border */
+        box-shadow: 0 4px 8px rgb(0, 0, 0); /* Optional: Add a shadow */
+        display: block; /* Ensure the images do not overflow their container */
+        margin: 0 auto; /* Center the images horizontally */
+        }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=preload" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Title Section -->
+        <div class="title-container">
+            <div class="title">
+                <h1>Quinn Fletcher</h1>
+            </div>
+        </div>
+
+        <!-- Navbar Section -->
+        <div class="navbar-container">
+            <div class="navbar">
+                <ul>
+                   <li><a href="Index.html">PORTFOLIO</a></li>
+                   <li><a href="Sketchbook.html">SKETCHBOOK</a></li>
+                   <li><a href="Showreel.html">SHOWREEL</a></li>
+                   <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Images Section -->
+        <div class="content-container">
+            <div class="design-links">
+                <div class="wider-thinking-link">
+                    <a href="Wider Thinking.html">
+                        <img src="Wider Thinking Image.png" alt="Wider Thinking">
+                    </a>
+                </div>
+                <div class="personal-project-link">
+                    <a href="Personal Project.html">
+                        <img src="Personal Project.png" alt="Personal Project">
+                    </a>
+                </div>
+                <div class="visual-development-link">
+                  <a href="Visual Development.html">
+                      <img src="VisualDevelopmentImage.png" alt="Visual Development">
+                  </a>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>
